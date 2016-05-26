@@ -48,26 +48,26 @@ public class Main {
 		
 	}
 //======================================\\					
-	public static void CCC_2016_S3() {
-		System.out.println("Problem S3: Phonomenal Reviews");
-		// read in data
-		readFile("CCC_2016_S3.txt");
-		int N = fileInput.nextInt();
-		int M = fileInput.nextInt();
-		int[] M = new int[M];
-		for (int n = 0; n < M; n++) {
-			M[n] = fileInput.nextInt();
-		}
-		int[][] R = new int[N-1][2];
-		for (int n = 0; n < R.length; n++) {
-			R[n][0] = fileInput.nextInt();
-			R[n][1] = fileInput.nextInt();
-		}
-		// compute like crazy
-		for (int n = 0; n < M; n++) {
-			// two-phase; but Y arrangement? need looped path // TOOOO HARD!!!! TRAVELLING SALESMAN
-		}
-	}
+	// public static void CCC_2016_S3() {
+	// 	System.out.println("Problem S3: Phonomenal Reviews");
+	// 	// read in data
+	// 	readFile("CCC_2016_S3.txt");
+	// 	int N = fileInput.nextInt();
+	// 	int M = fileInput.nextInt();
+	// 	int[] M = new int[M];
+	// 	for (int n = 0; n < M; n++) {
+	// 		M[n] = fileInput.nextInt();
+	// 	}
+	// 	int[][] R = new int[N-1][2];
+	// 	for (int n = 0; n < R.length; n++) {
+	// 		R[n][0] = fileInput.nextInt();
+	// 		R[n][1] = fileInput.nextInt();
+	// 	}
+	// 	// compute like crazy
+	// 	for (int n = 0; n < M; n++) {
+	// 		// two-phase; but Y arrangement? need looped path // TOOOO HARD!!!! TRAVELLING SALESMAN
+	// 	}
+	// }
 //======================================\\					fuqqqqqqqqqqq!!
 	public static void CCC_2013_S2() {
 		// Bridge transport
